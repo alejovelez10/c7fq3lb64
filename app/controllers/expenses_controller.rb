@@ -24,10 +24,8 @@ class ExpensesController < ApplicationController
   		
     end
 
-    @expenses = @expenses.where(user_id: current_user.id)
+    @expenses = @expenses.where(user_id: current_user)
 
   end
 end
 
-wget http://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.1.tar.gz
-tar -xzf ruby-2.3.1.tar.gz
