@@ -29,3 +29,5 @@ class ExpensesController < ApplicationController
   end
 end
 
+wget http://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.1.tar.gz
+tar -xzf ruby-2.3.1.tar.gz
